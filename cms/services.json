@@ -1,0 +1,17 @@
+[
+  {
+    "icon": "code",
+    "title": "Web Development",
+    "text": "HTML, CSS(Bootstrap), JavaScript(MERN Stack), Gatsby, and Firebase. You name it. I have it all covered!"
+  },
+  {
+    "icon": "mobile",
+    "title": "Responsive Design",
+    "text": "In 2020, you can't go online without having a mobile responsive website. Let me take care of that for you!"
+  },
+  {
+    "icon": "file-code",
+    "title": "PSD to HTML",
+    "text": "If you already have a design in Photoshop, InVision or any other format, I can covert it from scratch into a pixel-perfect, SEO-friendly HTML/CSS/JS website using the latest frameworks and technologies."
+  }
+]

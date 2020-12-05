@@ -1,0 +1,20 @@
+[
+  {
+    "uri": "https://github.com/stuartmackenzie/rn-netflix",
+    "image": "/images/spreadsheet.png",
+    "title": "Project Progress Management System",
+    "text": "This is a system for monitoring the progress of all ongoing projects. It will have three types of user roles - Basic user, Manager, and Project Coordinator. Basic users have the lowest priveledge while Project Coordinators have the highest. This was developed using React, Redux, and Firebase."
+  },
+  {
+    "uri": "https://github.com/stuartmackenzie/rn-netflix",
+    "image": "/images/ticks.png",
+    "title": "To-do App",
+    "text": "This is a simple to-do app I developed for educational purposes on my YouTube Channel. It allows the user to perform CRUD operations like adding and removing tasks from a database. Users must register and login to use the app. A user can only see the tasks that they have added. The app was developed using React, Redux, and Firebase."
+  },
+  {
+    "uri": "https://github.com/stuartmackenzie/rn-netflix",
+    "image": "/images/calculator.png",
+    "title": "Calculator App",
+    "text": "This is a simple calculator which performs the most common arithmetic operations. It has a slick design with buttons laid out nicely using CSS grid. I used Vanilla JavaScript to receive input, perform computation and display the correct results on the screen."
+  }
+]

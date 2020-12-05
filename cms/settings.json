@@ -1,0 +1,28 @@
+{
+  "name": "Stuart MacKenzie",
+  "description": "Stuart Mackenzie Blog",
+  "title": "Stuart MacKenzie | Software Architect",
+  "ogImage": {
+    "theme": "light",
+    "md": 0,
+    "fontSize": "75px",
+    "images": "https://assets.vercel.com/image/upload/front/assets/design/nextjs-black-logo.svg"
+  },
+  "email": "stu@ninjs.com",
+  "youtube": {
+    "username": "ninjs",
+    "uri": "https://www.youtube.com/channel/UCmr_ZHnPamcaAz2In24Bfqw"
+  },
+  "twitter": {
+    "username": "stuninjs",
+    "uri": "https://twitter.com/stuninjs"
+  },
+  "dev": {
+    "username": "stuartmackenzie",
+    "uri": "https://dev.to/stuartmackenzie"
+  },
+  "coffee": {
+    "username": "",
+    "uri": "#"
+  }
+}

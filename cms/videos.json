@@ -1,0 +1,38 @@
+[
+  {
+    "enabled": false,
+    "title": "Video 1",
+    "text": "Here is a brief description about video 1",
+    "video": "dQw4w9WgXcQ"
+  },
+  {
+    "enabled": false,
+    "title": "Video 2",
+    "text": "Here is a somewhat larger description about video 2. This text may need to be chopped.",
+    "video": "h_D3VFfhvs4"
+  },
+  {
+    "enabled": false,
+    "title": "Video 3 With longer title",
+    "text": "Here is a brief description about video 3",
+    "video": "V9AbeALNVkk"
+  },
+  {
+    "enabled": false,
+    "title": "Video 4",
+    "text": "Here is a brief description about video 4",
+    "video": "dZLfasMPOU4"
+  },
+  {
+    "enabled": false,
+    "title": "Vid 5",
+    "text": "Here is a brief description about video 5",
+    "video": "Y1PVmANeyAg"
+  },
+  {
+    "enabled": false,
+    "title": "Video 6 Blah",
+    "text": "Here is a brief description about video 6",
+    "video": "mXC3h95PtDY"
+  }
+]

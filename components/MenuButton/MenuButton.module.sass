@@ -1,0 +1,38 @@
+.menu-button
+  position: fixed
+  top: 0
+  right: 0
+  cursor: pointer
+  background-color: rgba(55, 55, 55, 0.5)
+  z-index: 999
+  padding: 1.2rem
+  border-radius: 0 0 0 40%
+
+.menu-line
+  height: 3px
+  margin-top: 5px
+  background: linear-gradient(135deg,rgba(108, 99, 255, 1) 0%,rgba(108, 99, 255, 0.4) 100%)
+  transition: all 300ms ease
+
+.menu-line1
+  width: 15px
+
+.menu-line2
+  width: 30px
+
+.menu-line3
+  width: 15px
+  margin-bottom: 5px
+  margin-left: 15px
+  
+.open
+  background: none
+
+  .menu-line1
+    transform: rotate(-45deg) translate(5px, 6px) scaleX(2)
+
+  .menu-line2
+    opacity: 0
+
+  .menu-line3
+    transform: rotate(45deg) translate(-15px, -6px) scaleX(2)

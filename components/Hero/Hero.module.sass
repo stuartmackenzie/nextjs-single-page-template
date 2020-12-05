@@ -1,0 +1,92 @@
+.hero
+  height: 100vh
+  background: linear-gradient(135deg,rgba(0, 64, 77, 0.9) 0%,rgba(0, 0, 0, 0.8) 100%), url("/images/code.png") no-repeat center center
+
+.message
+  position: absolute
+  left: 50%
+  top: 50%
+  width: 100%
+  max-width: 58rem
+  text-transform: uppercase
+  transform: translate(-50%, -50%)
+  text-align: center
+  padding-top: 6rem
+
+  h2
+    font-size: 2rem
+    font-weight: 400
+    overflow: hidden
+    white-space: nowrap
+    animation: typing 3s steps(27), blink 1s ease-in-out 3s infinite
+    width: 17ch
+    margin: auto
+    border-right: 2px solid rgba(255, 255, 255, 1)
+    text-shadow: 1px 1px 1px #000
+
+  h3
+    font-size: 2.8rem
+    font-weight: 400
+    overflow: hidden
+    white-space: nowrap
+    margin: 1rem auto
+    color: var(--secondary-color)
+    background: linear-gradient(to right, var(--secondary-color) 0%,rgba(102, 51, 153, 1) 100%)
+    background-clip: text
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+  
+  p
+    margin: 1rem auto
+    text-transform: none
+    font-size: 1.5rem
+    font-weight: 400
+    text-shadow: 1px 1px 1px #000
+
+@keyframes typing
+  75%
+    width: 0ch
+    color: var(--secondary-color)
+
+  100%
+    width: 17ch
+
+@keyframes blink
+  from
+    border-right: 2px solid rgba(255, 255, 255, 0)
+  to
+    border-right: 2px solid rgba(255, 255, 255, 1)
+
+.buttons
+  display: flex
+  flex-direction: row
+  justify-content: center
+  align-items: center
+  margin-top: 4rem
+
+.button
+  margin: 0 2rem
+  display: inline-block
+  min-width: 176px
+
+.icon
+  fill: #fafafa
+  transition: fill 300ms ease-in-out
+  margin-top: 1rem
+  width: 3rem
+  height: 3rem
+
+  &:hover
+    fill: var(--btn-background-hover)
+
+@media (max-width: 750px)
+  .message
+
+    h3
+      font-size: 2.4rem
+
+    p
+      font-size: 1.2rem
+
+  .button
+    margin: 0 1.5rem

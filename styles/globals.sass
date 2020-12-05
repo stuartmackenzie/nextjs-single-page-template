@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Share+Tech+Mono&display=swap")
+
+/* Theme */
+
+:root
+  --main-bg-color: rgb(19, 19, 19)
+  --main-color: #e7e7e7
+  --main-font-family: "Share Tech Mono", monospace
+  --secondary-font-family: "Poppins", sans-serif
+  --main-font-size: 0.8rem
+  --secondary-color: rgba(249, 105, 14, 1)
+  --a-color: rgb(3, 155, 155)
+  --p-font-size: 1.4rem
+  --btn-color: #fafafa
+  --btn-color-hover: #fafafa
+  --btn-background: rgba(3, 155, 155, 0.8)
+  --btn-background-hover: rgba(189, 72, 0, 1)
+  --svg-fill-color: #cecece
+
+/* Global */
+
+*, *::before, *::after
+  margin: 0
+  padding: 0
+  box-sizing: inherit 
+
+html
+  font-family: var(--main-font-family)
+  font-size: var(--main-font-size)
+  box-sizing: border-box
+  scroll-behavior: smooth
+  color: var(--main-color)
+  background-color: var(--main-bg-color)
+
+a
+  text-decoration: none
+  color: var(--a-color)
+
+ul
+  list-style: none
+
+p
+  font-size: var(--p-font-size)
+  font-family: var(--secondary-font-family)
+
+img
+  width: 100%
+  max-width: 100%
+  height: auto
+
+.btn
+  font-size: 1.2rem
+  display: inline-block
+  background: var(--btn-background)
+  border-radius: 0.4rem
+  padding: 1rem 2.5rem
+  color: var(--btn-color)
+  transition: background-color 300ms
+  font-weight: 500
+  letter-spacing: 1.1px
+  text-shadow: 1px 1px 1px rgba(0, 64, 77, 0.9)
+
+  &:hover
+    color: var(--btn-color-hover)
+    background-color: var(--btn-background-hover)
+
+/* Footer */
+
+/* Responsive */
+@media (max-width: 750px)
+  p
+    font-size: 1.2rem
